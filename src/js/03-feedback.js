@@ -8,7 +8,7 @@ const STORAGE_KEY = 'feedback-form-state';
 const formData = {}
 
 refs.form.addEventListener('submit', onFormSubmit)
-refs.form.addEventListener('input',throttle (onTextareaInput, 1000))
+refs.form.addEventListener('input',throttle (onTextareaInput, 500))
 
 populateTextarea()
 
